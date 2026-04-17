@@ -10,18 +10,19 @@ body {
     height: 100%;
 }
 
-.laliga-js {
+.pl-js {
     width: 100%;
     height: 100%;
     background: linear-gradient(
-        to right,
-        rgb(200, 0, 0),
-        rgb(255, 80, 0),
-        rgb(255, 170, 0)
+        135deg,
+        rgb(10, 0, 30),
+        rgb(50, 0, 100),
+        rgb(120, 0, 180),
+        rgb(255, 0, 140)
     );
 }
 
-.laliga-js .box {
+.pl-js .box {
     width: 450px;
     position: absolute;
     border-radius: 10px;
