@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.league-selection {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leagues {
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+    gap: 38px;
+    padding: 20px;
+}
+
+.leagues button {
+    width: 300px;
+    height: 200px;
+    justify-self: center;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: all 0.7s;
+}
+
+.leagues button img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+    background: white;
+}
+
+.leagues button:hover {
+    cursor: pointer;
+    border: 2px solid rgba(255, 0, 0, 0.636);
+    transform: scale(1.025);
+}
